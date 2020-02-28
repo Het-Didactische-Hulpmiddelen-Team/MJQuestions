@@ -19,10 +19,19 @@ import static org.junit.Assert.assertEquals;
         public void tearDown(){
             s = null;
         }
-
+        
+        @Test
+        public void factorialTestZero() {
+            assertEquals(1, s.factorial(0));
+        }
 
         @Test
-        public void factorialTest() {
+        public void factorialTestOne() {
+            assertEquals(1, s.factorial(1));
+        }
+
+        @Test
+        public void factorialTestGreaterThanZero() {
             for (int i = 0; i < 100; i++) {
                 assertEquals(factorial(i), s.factorial(i));
             }
