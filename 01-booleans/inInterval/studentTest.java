@@ -2,6 +2,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class studentTest {
+  
   @Test
   public void inIntervalReturnsTrueIfBetween(){
     assertTrue(student.inInterval(5, 0 , 10));
