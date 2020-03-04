@@ -1,4 +1,4 @@
-public class Student {
+class Student {
     // Je wil t-shirts laten drukken.
     // Per t-shirt betaal je €10.
     // Als je 10 of meer t-shirts laat drukken, krijg je €5 korting.
