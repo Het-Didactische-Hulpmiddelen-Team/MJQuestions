@@ -28,7 +28,7 @@ public class StudentTest {
     public void repeatTest() {
         String test = "test";
         for (int i = 0; i < 100; i++) {
-            assertEquals(repeat(test+i, 0), s.repeat(test+i, 0));
+            assertEquals(repeat(test+i, i), s.repeat(test+i, i));
         }
     }
 
